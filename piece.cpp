@@ -89,6 +89,7 @@ bool Piece::checkWin(int xIndex, int yIndex){
 
 void Piece::clean(){
     playview->piece_clear();
+    piece_num = 0;
 }
 
 void Piece::undo(){
