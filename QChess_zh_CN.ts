@@ -20,8 +20,8 @@
     </message>
     <message>
         <location filename="chess.ui" line="528"/>
-        <location filename="chess.cpp" line="46"/>
-        <location filename="chess.cpp" line="61"/>
+        <location filename="chess.cpp" line="47"/>
+        <location filename="chess.cpp" line="65"/>
         <source>和棋</source>
         <translation type="unfinished"></translation>
     </message>
@@ -36,17 +36,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="chess.cpp" line="46"/>
+        <location filename="chess.cpp" line="47"/>
         <source>黑白和棋, 请重新开局</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="chess.cpp" line="57"/>
+        <location filename="chess.cpp" line="60"/>
         <source>获胜, 请重新开局</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="chess.cpp" line="61"/>
+        <location filename="chess.cpp" line="65"/>
         <source>本局和棋, 请重新开局</source>
         <translation type="unfinished"></translation>
     </message>

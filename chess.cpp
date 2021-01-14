@@ -43,7 +43,9 @@ void Chess::on_pushButton_clicked()
 
 void Chess::on_pushButton_2_clicked()
 {
+    PlayTime->stop();
     QMessageBox::information(this, tr("和棋"), tr("黑白和棋, 请重新开局"));
+
 }
 
 void Chess::on_pushButton_3_clicked()
@@ -54,10 +56,12 @@ void Chess::on_pushButton_3_clicked()
 }
 
 void Chess::Win(QString & winner){
+    PlayTime->stop();
     QMessageBox::information(this, winner, winner+tr("获胜, 请重新开局"));
 }
 
 void Chess::Peace(){
+    PlayTime->stop();
     QMessageBox::information(this, tr("和棋"), tr("本局和棋, 请重新开局"));
 }
 
